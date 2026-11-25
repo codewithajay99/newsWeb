@@ -21,7 +21,7 @@ this.setState({language:input})
   render(){
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/newsWeb">
         <Navbar getLanguage={this.getLanguage} search={this.search}/>
 
         <Routes>
