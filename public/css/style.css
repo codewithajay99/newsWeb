@@ -1,0 +1,115 @@
+.background {
+    background: linear-gradient(to right, blue, navy, black);
+}
+ .card-title{
+    font-size: 1.1rem;
+    height: 110px;
+    border-bottom:4px solid gray ;
+ }
+ .source{
+    display: flex;
+    justify-content: space-between;
+ }
+ .source p{
+    font-size: 0.8rem;
+ }
+ .card-text{
+  font-size: 0.9rem;
+  height: 210px;
+ }
+
+ .card img{
+    height: 220px;
+ }
+@media only screen and (min-width: 1200px) and (max-width: 1900px) {
+
+.card-title{
+   
+    height: 120px;
+     overflow-y: auto;
+    overflow-x: hidden;
+    
+} 
+ .card-text{
+  font-size: 1rem;
+  height: 270px;
+  overflow-y: auto;
+    overflow-x: hidden;
+ }
+
+
+}@media only screen and (min-width:992px) and (max-width:1200px) {
+
+.card-title{
+   
+    height: 110px;
+     overflow-y: auto;
+    overflow-x: hidden;
+   
+    
+} 
+ .card-text{
+  font-size: 0.9rem;
+  height: 199px;
+   overflow-y: auto;
+    overflow-x: hidden;
+ }
+
+
+}@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+.card-title{
+   
+    height: 90px;
+     overflow-y: auto;
+    overflow-x: hidden;
+   
+    
+} 
+ .card-text{
+  font-size: 0.9rem;
+  height: 215px;
+   overflow-x: hidden;
+    
+ }
+
+
+}@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+.card-title{
+   
+    height: 55px;
+     overflow-y: auto;
+    overflow-x: hidden;
+    
+} 
+ .card-text{
+  font-size: 0.9rem;
+  height: 175px;
+  overflow-y: auto;
+    overflow-x: hidden;
+ }
+
+
+}
+@media only screen and (min-width: 100px) and (max-width: 576px) {
+
+.card-title{
+   
+    height: 50px;
+     overflow-y: auto;
+    overflow-x: hidden;
+   
+} 
+.source p{
+    font-size: 0.9rem;
+ }
+ .card-text{
+  font-size: 1rem;
+  height: 115px;
+  overflow-y: auto;
+    overflow-x: hidden;
+ }
+
+
+}
